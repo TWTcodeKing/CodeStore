@@ -1,0 +1,34 @@
+﻿生成启动时间为 2021/5/23 16:05:03。
+     1>项目“C:\Users\TWT\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D CURL_STATICLIB /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>ConsoleApplication1.cpp(19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ConsoleApplication1.cpp(20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ConsoleApplication1.cpp(27): warning C4101: “SlideWindow”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TWT\source\repos\ConsoleApplication1\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO libcurl.lib zlib.lib libtiff.lib libpng.lib libjpeg.lib libjasper.lib IlmImf.lib comctl32.lib vfw32.lib opencv_core2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\TWT\source\repos\ConsoleApplication1\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TWT\source\repos\ConsoleApplication1\Release\ConsoleApplication1.lib" /MACHINE:X86 /SAFESEH /FORCE:MULTIPLE Release\ConsoleApplication1.res
+         Release\config.obj
+         Release\ConsoleApplication1.obj
+         Release\ExtractInfo.obj
+         Release\HttpFileEx.obj
+         Release\json_reader.obj
+         Release\json_value.obj
+         Release\json_writer.obj
+         Release\KMeans.obj
+         Release\RotateImage.obj
+         Release\stdafx.obj
+         Release\StringOperator.obj
+         正在生成代码
+         已完成代码的生成
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) 已在 LIBCMT.lib(new.obj) 中定义；已忽略第二个定义
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) 已在 LIBCMT.lib(delete.obj) 中定义；已忽略第二个定义
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z) 已在 libcpmt.lib(newaop.obj) 中定义；已忽略第二个定义
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z) 已在 LIBCMT.lib(delete2.obj) 中定义；已忽略第二个定义
+     1>C:\Users\TWT\source\repos\ConsoleApplication1\Release\ConsoleApplication1.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+         ConsoleApplication1.vcxproj -> C:\Users\TWT\source\repos\ConsoleApplication1\Release\ConsoleApplication1.exe
+     1>已完成生成项目“C:\Users\TWT\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.20
